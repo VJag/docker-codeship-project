@@ -1,6 +1,6 @@
 var test = require('tape');
 var server = require('./server');
-
+console.log('Starting');
 test ('Root endpoint', function (t) {
   var req = {
     method: 'GET',
